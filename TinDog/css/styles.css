@@ -1,0 +1,196 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; 
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Heading */
+.big-heading{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Section  */
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+    color: #000;
+}
+
+/* Navigation Bar*/
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.nav-item{
+    font-weight: 100;
+    padding: 0 18px;
+}
+
+
+/* Download */
+.download-button{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    margin: 3% 3% 3%;
+}
+
+/* Title image*/
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.title-col{
+    position: relative;
+}
+
+.title-image{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 20%;
+}
+
+.title-heading{
+    text-align: left;
+}
+
+section#title{
+    padding: auto;
+    position: relative;
+    z-index: -1;
+}
+
+@media (max-width: 1028px){
+    .title-row{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* Features */
+
+#features .container-fluid{
+    padding: 13% 15% 10%;
+}
+
+.img-feature{
+    color: #ef8172;
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+
+.img-feature:hover{
+    color: #ff4c88;
+}
+
+.title-feature{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.text-feature{
+    font-weight: 100;
+    color: #8f8f5f;
+}
+
+/* Testimonials */
+section#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonials-image{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.testimonials-title{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 8% 15%;
+} 
+
+/* Press */
+section#press {
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+
+.press-image{
+    margin : 20px 20px 50px;
+    width: 15%;
+}
+
+/* Pricing */
+section#pricing{
+    padding : 100px;
+}
+
+.pricing-button{
+    width: 100%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* CALL TO ACTION */
+section#cta{
+    padding: 4% 20% 5%;
+}
+
+.cta-h3{
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+
+/* Footer */
+#footer{
+    margin: 4% 20% 2%;
+}
+
+.footer-brand{
+    padding: 0 1.5% 2%;
+}
